@@ -7,9 +7,9 @@ import org.springframework.stereotype.Component;
 public class CholeraPatient {
 
 
-    private RequestDTO requestDTO;
+    public RequestDTO requestDTO;
 
-    private SessionDTO sessionDTO;
+    public SessionDTO sessionDTO;
     public CholeraPatient(RequestDTO requestDTO, SessionDTO sessionDTO) {
         this.requestDTO = requestDTO;
         this.sessionDTO = sessionDTO;
