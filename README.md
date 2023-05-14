@@ -1,0 +1,2 @@
+# Cholera
+constructor injection implementation
