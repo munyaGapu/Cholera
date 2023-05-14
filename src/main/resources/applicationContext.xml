@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="database" class="zw.co.mike.chol.dbconnection.Database" scope="singleton"/>
+    <bean id="counter" class="zw.co.mike.chol.prototype.CholeraInfectionsCount" scope="prototype"/>
+
+</beans>
