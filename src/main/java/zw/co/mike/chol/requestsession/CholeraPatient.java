@@ -9,13 +9,13 @@ public class CholeraPatient {
 
     private RequestDTO requestDTO;
 
-
+    private SessionDTO sessionDTO;
     public CholeraPatient(RequestDTO requestDTO, SessionDTO sessionDTO) {
         this.requestDTO = requestDTO;
         this.sessionDTO = sessionDTO;
     }
 
-    private SessionDTO sessionDTO;
+
 
 
 
